@@ -40,3 +40,13 @@ Which outputs:
 - A deep sense of regret
 > [!WARNING]
 > On machines with less than 2GB VRAM, the print statement might fail with a "Missing CUDA core sarcasm driver" error.
+# Things to know
+- They have a .background file extension
+- If you edit outside of the exe please dont we want to keep mandatory comments there
+## Mandatory comments
+## When
+- at the start of the script
+- at the end of the script
+- Whenever you do any of the following
+  - idk you tell me
+  - idc too
