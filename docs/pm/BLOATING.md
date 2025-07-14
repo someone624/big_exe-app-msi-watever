@@ -116,7 +116,7 @@ These ones in this section are made for tiny output. If you give it 30 unused li
 #### shiv ![Supported on Windows](../../assets/image/windows.png) ![Supported on MacOS](../../assets/image/mac_os.png) ![Supported on Linux](../../assets/image/linux.png)  ![Unsupported on ChromeOS, but can work](../../assets/image/chrome_os.png)
 #### zipapp ![Supported on Windows](../../assets/image/windows.png) ![Supported on MacOS](../../assets/image/mac_os.png) ![Supported on Linux](../../assets/image/linux.png)  ![Unsupported on ChromeOS, but can work](../../assets/image/chrome_os.png)
 > On Nutika, shiv, and zipapp, ChromeOS ![ChromeOS](../../assets/image/chrome_os.png) is unsupported but can work
-# Tl;DR
+## Tl;DR
 So the best ones for bloating are
 1. PyInstaller
 2. py2exe
@@ -132,7 +132,7 @@ So the best ones for bloating are
 12. zipapp 
 > [!NOTE]
 > Some don't actually freeze things/are outdated, its just me being an idiot.
-## Tl;DR of TL;DR
+### Tl;DR of TL;DR
 | Thing | Bloat? |
 | -------- | -------- |
 | pyinstaller | :star: |
