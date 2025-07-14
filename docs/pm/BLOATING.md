@@ -1,5 +1,9 @@
 # Best way to bloat
 There are lots of ways to make a Python file into some exe/app or other linux stuff. Some of those give results on bloating them using this, but some optimize unused modules/packages/libraries. This .md file will show which ones give the best results
+> [!WARNING]
+> This could easily be turned around with the right settings.
+> eg. --exclude-import in pyinstaller.
+> But this still might be a bit wrong (or alot idk)
 ## Most common ones
 This .md file will cover those freezing things
 ### Usage
