@@ -1,17 +1,7 @@
 # Best way to bloat
 There are lots of ways to make a Python file into some exe/app or other linux stuff. Some of those give results on bloating them using this, but some optimize unused modules/packages/libraries. This .md file will show which ones give the best results
 ## Most common ones
-This .md file will cover:
-- pyinstaller
-- py2exe
-- py2app
-- cx_freeze
-- briefcase
-- staticxx
-- Nutika
-- PyOxidizer
-- shiv
-- zipapp
+This .md file will cover those freezing things
 ### Usage
 Just some example commands
 #### PyInstaller
