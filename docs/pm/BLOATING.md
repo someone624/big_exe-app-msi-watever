@@ -1,5 +1,5 @@
 # Best way to bloat
-There are lots of ways to make a Python file into some exe/app or other linux stuff. Some of those give results on bloating them using this, but some optimize unused modules/packages/libraries. This .md file will show which ones give the best results
+There are lots of ways to make a Python file into some exe/app or other linux stuff. Some of those give results on bloating them using this, but some optimize unused modules/packages/libraries. This .md file will show which ones give the best results.
 > [!WARNING]
 > This could easily be turned around with the right settings.
 > eg. --exclude-import in pyinstaller.
@@ -119,7 +119,7 @@ These ones in this section are made for tiny output. If you give it 30 unused li
 #### PyOxidizer ![Supported on Windows](../../assets/image/windows.png) ![Supported on MacOS](../../assets/image/mac_os.png) ![Supported on Linux](../../assets/image/linux.png)
 #### shiv ![Supported on Windows](../../assets/image/windows.png) ![Supported on MacOS](../../assets/image/mac_os.png) ![Supported on Linux](../../assets/image/linux.png)  ![Unsupported on ChromeOS, but can work](../../assets/image/chrome_os.png)
 #### zipapp ![Supported on Windows](../../assets/image/windows.png) ![Supported on MacOS](../../assets/image/mac_os.png) ![Supported on Linux](../../assets/image/linux.png)  ![Unsupported on ChromeOS, but can work](../../assets/image/chrome_os.png)
-> On Nutika, shiv, and zipapp, ChromeOS ![ChromeOS](../../assets/image/chrome_os.png) is unsupported but can work
+> On Nutika, shiv, and zipapp, ChromeOS ![ChromeOS](../../assets/image/chrome_os.png) is unsupported but there are ways.
 ## Tl;DR
 So the best ones for bloating are
 1. PyInstaller
@@ -135,7 +135,7 @@ So the best ones for bloating are
 11. shiv
 12. zipapp 
 > [!NOTE]
-> Some don't actually freeze things/are outdated, its just me being an idiot.
+> Some don't actually freeze things/are outdated/completely wrong, its just me being an idiot.
 ### Tl;DR of TL;DR
 | Thing | Bloat? |
 | -------- | -------- |
@@ -144,4 +144,4 @@ So the best ones for bloating are
 | cx_freeze | :white_check_mark: |
 | staticx | :neutral_face: |
 | nutika | :warning: |
-| pyoxidizer | :x:
+| pyoxidizer | :x: |
